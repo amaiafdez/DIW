@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font: bold 25px Tahoma;
+}
+
+h2{
+	font: bold 19px Tahoma;
+}
+
+h3{
+	font: bold 13px Tahoma;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+
+	display: block;
+}
+
+body{
+	text-align: center;
+}
+
+#noticias{
+	height:;
+	width:1000px;
+	margin:20px auto; /* _ _ _ _ cuatro datos a las agujas d reloj*/
+	text-align: left;
+}

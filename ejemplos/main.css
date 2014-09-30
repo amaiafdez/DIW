@@ -1,0 +1,5 @@
+#linea{color:red;}
+p.linea{color: blue;}
+p[name="mikel"]{color: green;}
+p[name $="ia"]{color: yellow;}
+p[name ^="xa"]{color: orange;}
