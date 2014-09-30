@@ -30,3 +30,14 @@ body{
 	margin:20px auto; /* _ _ _ _ cuatro datos a las agujas d reloj*/
 	text-align: left;
 }
+#top_header{
+	background: yellow;
+	border: 1px solid blue;
+	padding: 20px;
+}
+
+#top_menu{
+	background: purple;
+	color: white; /*color texto*/
+	padding-left:15px;
+}
