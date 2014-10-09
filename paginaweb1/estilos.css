@@ -17,14 +17,21 @@ header, section, footer, aside, nav, article, hgroup{
 }
 
 body{
-	text-align: center;
+	width: 100%;
+	display: -webkit-box; /*para decir que vamos a usar webkit box*/
+	-webkit-box-pack: center; /* todos los elementos que vengan de body iran centrados*/
+
 }
 
 #articulos{
 	border: 1px solid black;
-	width:1000px;
+	max-width: 1000px;
+	/*width:1000px;  -->quitamos los pixeles*/
+	display: -webkit-box;
+	-webkit-box-orient: vertical; /*para que se oriente en vertical*/
+	-webkit-box-flex:1;/*para decir flexible usamo 1,para poner no flexible 0*/
 	margin:20px auto; /* _ _ _ _ cuatro datos a las agujas d reloj*/
-	text-align: left;
+	/*text-align: left;*/
 }
 
 #top_header{
@@ -44,11 +51,19 @@ body{
 	padding:5px;
 	font: bold 14px Tahoma;
 }
+#new_div{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+
+}
 
 #main_section{
-	float: left;
-	width: 660px;
-	margin: 30px; /*660+30+30=720px ocupados, 280px libres*/
+	-webkit-box-flex:1;
+	margin: 20px;
+	padding: 20px;
+	/*float: left;*/	
+	/*width: 660px;
+	margin: 30px; 660+30+30=720px ocupados, 280px libres*/
 	/*border: 1px solid black;*/
 }
 
