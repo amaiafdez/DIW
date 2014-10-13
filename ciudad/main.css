@@ -1,3 +1,32 @@
 *{
-	
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+
+	display: block;
+}
+#top_header{
+	height: 100px;
+	background-image: url("img/rio.jpg");
+}
+#top_menu{
+	/*width: 100%;*/
+}
+#top_menu li{
+	display: inline-block; /*poner menu en recto*/
+	/*padding:100px;*/
+	font: bold 14px Tahoma;
+}
+#section_izda{
+	float: left;
+	width: 50%;
+}
+#dcha{
+	float: right;
+	width: 50%;
+}
+img{
+	width: 50%;
 }
