@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+   
 }
 
 header, section, footer, aside, nav, article, hgroup{
@@ -12,7 +13,7 @@ header, section, footer, aside, nav, article, hgroup{
 	height: 50px;
 	text-align: center;
 	background-image: url("img/fondo.jpg");
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
 }
 /*---------------------------------*/
 #top_menu {
@@ -63,18 +64,24 @@ ul, ol {
 }
 /* ----------------------------------------*/
 #section_izda{
+
 	float: left;
-	width: 50%;
+	width: 45%;
+    padding-left: 100px;
 }
 #section_dcha{
 	float: right;
-	width: 50%;
+	width: 45%;
+   /* margin-right: 50px;*/
 }
-img{
-	width: 50%;
-	min-width: 100px;
+.imagen{
+    width: 50%;
+    max-height: 50%;
 }
-img :hover{
- -webkit-transform: scale(3.5);
+img:hover{
+ -webkit-transform: scale(2.5);
  
+}
+#new_div p{
+    width: 70%;
 }
