@@ -13,10 +13,10 @@ function play(num){
 
 function doFirst(num){
 	n=parseInt(num);
-	myMovie = document.getElementById('myMovie'+num);
-	playButton = document.getElementById('playButton'+num);
-	bar = document.getElementById('defaultBar'+num);
-	progressBar = document.getElementById('progressBar'+num);
+	myMovie = document.getElementById('myMovie'+n);
+	playButton = document.getElementById('playButton'+n);
+	bar = document.getElementById('defaultBar'+n);
+	progressBar = document.getElementById('progressBar'+n);
 
 	playOrPause();
 	bar.addEventListener('click', clickedBar, false);
