@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS3 & HTML Slider</title>
+<link rel="stylesheet" href="main.css">
+<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+<h1>Slider con CSS3 y HTML</h1>
+   <div id="slider"> 
+        <input type="radio" id="control1" name="controls" checked="checked"/>
+        <label for="control1"></label>
+        <input type="radio" id="control2" name="controls"/>
+        <label for="control2"></label>
+        <input type="radio" id="control3" name="controls"/>
+        <label for="control3"></label>
+        <input type="radio" id="control4" name="controls"/>
+        <label for="control4"></label>
+        <input type="radio" id="control5" name="controls"/>
+        <label for="control5"></label>
+        <div id="sliderinner">
+            <ul>
+                <li>
+                    <video id="myMovie1">
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <nav>
+                        <div id="buttons1">
+                            <button type="button1" id="playButton1" onclick="play(1)">Play</button>
+                        </div>
+                        <div id="defaultBar1">
+                            <div id="progressBar1"></div>
+                        </div>
+                    </nav>
+                </li>
+                <li>
+                    <video id="myMovie2">
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <nav>
+                        <div id="buttons2">
+                            <button type="button" id="playButton2" onclick="play(2)">Play</button>
+                        </div>
+                        <div id="defaultBar2">
+                            <div id="progressBar2"></div>
+                        </div>
+                    </nav>
+                </li>
+                <li>
+                    <video id="myMovie3">
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <nav>
+                        <div id="buttons3">
+                            <button type="button" id="playButton3" onclick="play(3)">Play</button>
+                        </div>
+                        <div id="defaultBar3">
+                            <div id="progressBar3"></div>
+                        </div>
+                    </nav>
+                </li>
+                <li>
+                    <video id="myMovie4">
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <nav>
+                        <div id="buttons4">
+                            <button type="button" id="playButton4" onclick="play(4)">Play</button>
+                        </div>
+                        <div id="defaultBar4">
+                            <div id="progressBar4"></div>
+                        </div>
+                    </nav>
+                </li>
+                <li>
+                    <video id="myMovie5">
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <nav>
+                        <div id="buttons5">
+                            <button type="button" id="playButton5" onclick="play(5)">Play</button>
+                        </div>
+                        <div id="defaultBar5">
+                            <div id="progressBar5"></div>
+                        </div>
+                    </nav>
+                </li>
+            </ul>
+        </div>
+    </div><!--slider-->
+</body>
+</html>    
