@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font: bold Tahoma;
+	text-align: center;
+}
+
+h2{
+	font: bold Tahoma;
+}
+
+h3{
+	font: bold Tahoma;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+
+	display: block;
+}
+img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
+#noticias{
+	margin:20px auto;
+	text-align: left;
+}
+#top_header{
+
+	background-color: pink;
+
+	padding: 20px;
+}
+
+#top_menu{
+	background: yellow;
+	 
+	padding-left:15px;
+}
+#top_menu li{
+	display: inline-block; 
+	padding:5px;
+	font: bold 14px Tahoma;
+}
+
+#section{
+	float: left;
+	width: 660px;
+	margin: 30px; 
+}
+article{
+	background: white;
+	padding:20px;
+	margin-bottom:15px; /*borde inferior*/
+}
+#top_noticias li{
+	display: inline-block;
+	max-width: 200px;
+}
+#news_aside{
+	color: blue;
+	float: left;
+	width: 250px;
+	padding: 30px;
+	margin: 20px 0px;
+	background: black;
+}
+#the_footer{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}

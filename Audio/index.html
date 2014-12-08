@@ -5,11 +5,23 @@
 		<meta charset="utf8">
 		<title>Ejemplo audio</title>
 		<link rel="stylesheet" href="main.css">
+		<script type="text/javascript" src="main.js"></script>
 	</head>
 	<body>
-		<div class="audio-player">
-		  <h2>The Good Lawdz - Evidence Song</h2>
-		  <audio id="audio" src="musica.mp3" type="audio/mp3" controls="controls"></audio>
-		</div>
+		<section id="skin">
+			<audio id="myMusic">
+				<source src="musica.mp3" type="audio/mp3">
+				Your browser does not support the audio tag.
+			</audio>
+			<img id="fondo" src="musica.jpg" />
+			<nav>
+				<div id="buttons">
+					<img id="playButton" src="play.png" />
+				</div>
+				<div id="defaultBar">
+					<div id="progressBar"></div>
+				</div>
+			</nav>
+		</section>
 	</body>
 </html>

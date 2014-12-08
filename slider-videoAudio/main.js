@@ -23,8 +23,8 @@ function doFirst(num){
 }
 
 function playOrPause(){
-	if(!myMovie.paused && !myMovie.ended)
-	{
+	if((!myMovie.paused && !myMovie.ended){
+
 		myMovie.pause();
 		playButton.innerHTML='Play';
 		window.clearInterval(update);

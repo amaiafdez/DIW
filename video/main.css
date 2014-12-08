@@ -9,10 +9,10 @@ header,section,nav{
 	width: 700px;
 	height: 300px;
 	margin: 10px auto;
-	padding: 5px;
+	padding: 5px;/*
 	background: black;
 	border: 4px solid grey;
-	border-radius: 10px;
+	border-radius: 10px;*/
 }
 
 nav{
